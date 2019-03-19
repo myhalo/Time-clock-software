@@ -108,7 +108,7 @@ def click_uptime():#点击打卡按钮
   #  off_button.config(state=tkinter.DISABLED,relief=tkinter.SUNKEN)
     def countdown():#倒计时，离下班时间
         now_time=datetime.strftime(datetime.now(),'%H:%M:%S')
-        differ_time=(d+timedelta(hours=0.25))-datetime.strptime(now_time,'%H:%M:%S')
+        differ_time=(d+timedelta(hours=9.5))-datetime.strptime(now_time,'%H:%M:%S')
        # print(differ_time.total_seconds())
       #  print(type(differ_time.total_seconds()))
       #  print(differ_time.total_seconds()/60)
